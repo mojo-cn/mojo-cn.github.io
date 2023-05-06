@@ -19,7 +19,7 @@ function HomepageHeader() {
             className="button button--secondary button--lg"
             to="/docs/intro">
 
-            Try Better App
+            Mojo China
 
 
           </Link>

@@ -6,9 +6,9 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Try Better App",
-  tagline: " 使用更好的 App",
-  url: "https://trybetter.app", // todo x: update
+  title: "Mojo China",
+  tagline: "Mojo 中文社区",
+  url: "https://cnmojo.org", // todo x: update
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -16,8 +16,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "better-try", // todo x: Usually your GitHub org/user name.
-  projectName: "better-try.github.io", // todo x: Usually your repo name.
+  organizationName: "mojo-cn", // todo x: Usually your GitHub org/user name.
+  projectName: "mojo-cn.github.io", // todo x: Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -60,9 +60,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "Try Better App", // todo x
+        title: "Mojo China", // todo x
         logo: {
-          alt: "Better App Logo",
+          alt: "Mojo China",
           src: "img/logo.svg",
         },
         items: [
@@ -134,7 +134,7 @@ const config = {
           { to: "/blog", label: "博客", position: "left" },
 
           {
-            href: "https://github.com/better-try",
+            href: "https://github.com/mojo-cn",
             label: "GitHub",
             position: "right",
           },
@@ -149,7 +149,7 @@ const config = {
                 value: '<hr style="margin: 0.3rem 0;">',
               },
               {
-                href: "https://github.com/better-try",
+                href: "https://github.com/mojo-cn",
                 label: "Help Us Translate",
               },
             ],
@@ -190,12 +190,12 @@ const config = {
               },
               {
                 label: "GitHub",
-                href: "https://github.com/better-try", // todo x
+                href: "https://github.com/mojo-cn", // todo x
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Mojo China, Org. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
